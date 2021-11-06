@@ -125,6 +125,9 @@ class _CalculoSimplesState extends State<CalculoSimples> {
             const SizedBox(
               width: 20,
             ),
+            const SizedBox(
+              width: 20,
+            ),
             const Text("Cálculo simples"),
           ],
         ),

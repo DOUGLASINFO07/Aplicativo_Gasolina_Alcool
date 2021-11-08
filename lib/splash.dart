@@ -9,7 +9,7 @@ class Splash extends StatefulWidget {
 
 class _SplashState extends State<Splash> {
 
-  // *** INIT STATE ***
+  // *** INITSTATE ***
   @override
   void initState() {
     super.initState();
@@ -18,7 +18,7 @@ class _SplashState extends State<Splash> {
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    Timer(const Duration(seconds: 1), () {
+    Timer(const Duration(seconds: 3), () {
       Navigator.pushReplacementNamed(context, RouteGenerator.ROTA_HOME);
     });
   }

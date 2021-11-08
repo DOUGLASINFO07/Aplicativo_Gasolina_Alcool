@@ -169,23 +169,6 @@ class _HomeState extends State<Home> {
                             const SizedBox(
                               height: 10,
                             ),
-
-                            // Row(
-                            //   mainAxisAlignment: MainAxisAlignment.center,
-                            //   children: <Widget>[
-                            //     Image.asset('assets/imagens/logo_info07.png',
-                            //       height: 70,
-                            //       width: 70,
-                            //     ),
-                            //     const SizedBox(
-                            //       width: 20,
-                            //     ),
-                            //     Image.asset('assets/imagens/dimtech_simbolo.png',
-                            //       height: 40,
-                            //       width: 40,
-                            //     ),
-                            //   ],
-                            // ),
                           ],
                         ),
                       ),

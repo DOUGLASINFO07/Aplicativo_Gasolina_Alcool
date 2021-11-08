@@ -17,8 +17,8 @@ void main() {
         title: "Gasolina Álcool",
         theme: ThemeData().copyWith(
           colorScheme: ThemeData().colorScheme.copyWith(
-                secondary: Color(0xffffffff),
-                primary: Color(0xff08abca),
+                secondary: const Color(0xffffffff),
+                primary: const Color(0xff08abca),
               ),
         ),
         initialRoute: "/",
